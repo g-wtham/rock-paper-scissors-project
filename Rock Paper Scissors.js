@@ -8,7 +8,6 @@ let getComputerChoice = () => {
     return game_choices[Math.floor(Math.random() * game_choices.length)]
 }
 
-
 let playRound = (getPlayerChoice, getComputerChoice) => {
     
     let  playerChoice = getPlayerChoice()
